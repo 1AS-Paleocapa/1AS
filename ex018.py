@@ -1,0 +1,10 @@
+from math import radians, sin, cos, tan
+ang = float(input("Digita un angolo: "))
+a = radians(ang)
+print("-" * 80)
+print("L'angolo di {:.1f}° ha un:".format(ang))
+print()
+print("> SENO di {:.3f}.".format(sin(a)))
+print("> COSENO di {:.3f}.".format(cos(a)))
+print("> TANGENTE di {:.3f}.".format(tan(a)))
+print("-" * 80)

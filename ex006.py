@@ -1,0 +1,16 @@
+n1 = int(input("Digita un numero: "))
+d = n1 * 2
+t = n1 * 3
+radq = n1 ** (1/2)
+print("Il tuo numero è {}.".format(n1))
+print("Il suo doppio è {}.".format(d))
+print("Il suo  è {}.".format(t))
+print("La sua radice quadrata è {:.2f}".format(radq))
+print()
+print("#" *40)
+print()
+print("Il tuo numero è {}. \nIl suo doppio è {}. \nIl suo  è {}. \nLa sua radice quadrata è {:.2f}".format(n1, d, t, radq))
+print()
+print("#" *40)
+print()
+print("Il tuo numero è {}. \nIl suo doppio è {}. \nIl suo  è {}. \nLa sua radice quadrata è {:.2f}".format(n1, n1 * 2, n1 * 3, pow(n1, (1/2))))
